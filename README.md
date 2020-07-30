@@ -28,28 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`feedbin-bridge-api hello [FILE]`](#feedbin-bridge-api-hello-file)
 * [`feedbin-bridge-api help [COMMAND]`](#feedbin-bridge-api-help-command)
-
-## `feedbin-bridge-api hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ feedbin-bridge-api hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ feedbin-bridge-api hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/mjohnsey/feedbin-bridge-api/blob/v0.1.0/src/commands/hello.ts)_
+* [`feedbin-bridge-api server`](#feedbin-bridge-api-server)
 
 ## `feedbin-bridge-api help [COMMAND]`
 
@@ -67,4 +47,21 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.1.0/src/commands/help.ts)_
+
+## `feedbin-bridge-api server`
+
+server daemon
+
+```
+USAGE
+  $ feedbin-bridge-api server
+
+OPTIONS
+  -d, --debug  run with debugging
+
+EXAMPLE
+  $ feedbin-bridge-api server
+```
+
+_See code: [src/commands/server.ts](https://github.com/mjohnsey/feedbin-bridge-api/blob/v0.1.0/src/commands/server.ts)_
 <!-- commandsstop -->

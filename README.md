@@ -4,9 +4,7 @@ feedbin-bridge-api
 API to run a bridge service for Feedbin to other platforms
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/feedbin-bridge-api.svg)](https://npmjs.org/package/feedbin-bridge-api)
-[![Downloads/week](https://img.shields.io/npm/dw/feedbin-bridge-api.svg)](https://npmjs.org/package/feedbin-bridge-api)
-[![License](https://img.shields.io/npm/l/feedbin-bridge-api.svg)](https://github.com/mjohnsey/feedbin-bridge-api/blob/master/package.json)
+![GH Hosted Docker Image](https://github.com/mjohnsey/feedbin-bridge-api/workflows/Docker%20Image%20CI/badge.svg)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -19,7 +17,7 @@ $ npm install -g feedbin-bridge-api
 $ feedbin-bridge-api COMMAND
 running command...
 $ feedbin-bridge-api (-v|--version|version)
-feedbin-bridge-api/0.1.0 darwin-x64 node-v14.4.0
+feedbin-bridge-api/0.1.0 darwin-x64 node-v14.13.1
 $ feedbin-bridge-api --help [COMMAND]
 USAGE
   $ feedbin-bridge-api COMMAND
